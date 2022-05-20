@@ -1,0 +1,75 @@
+.logo{
+	font-size: 32px;
+	margin-left: 15px;
+}
+.logobtn{
+	float: right;
+	margin-right: 15px;
+}
+nav{
+	display: flex;
+}
+nav .login{
+	text-align: right;
+	text-decoration: none;
+	margin-top: 35px;
+	margin-left: 1500px;
+	background-color: white;
+	color: green;
+	border: solid 5px red;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	float: right;
+
+}
+.ll{
+	margin-top: 100px;
+}
+.lm{
+	display: flex;
+	align-items: center;
+}
+.lm div div{
+	font-size: 30px;
+}
+.ra{
+	border-radius: 50%;
+	border: 2px solid green;
+	height: 50%;
+	padding:100px;
+	width: 15%;
+}
+.ka{
+	width: 25%;
+}
+hr{
+	width: 15%;
+	margin: 0px;
+	padding: 0px;	
+}
+.al{
+	margin-top: 15px;
+	font-size: 30px;
+	color: green;
+}
+.sh{
+	align-items: center;
+	margin-top: 180px;
+	padding: 15px;
+}
+.sh .ku{
+	text-align: center;
+	font-size: 50px;
+	color:white;
+	background-color: orange;
+	text-decoration: none;
+	border-radius: 15px;
+	border: solid 5px red;
+	margin-top: 40px;
+	padding: 10px;
+}
+.hover:hover{
+	background-color: yellow;
+	color: white;
+}

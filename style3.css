@@ -1,0 +1,33 @@
+.logo{
+	font-size: 32px;
+	margin-left: 15px;
+}
+nav{
+	display: flex;
+}
+a{
+	text-align: right;
+	text-decoration: none;
+	margin-top: 35px;
+	margin-left: 1300px;
+	color: green;
+	border: solid 5px red;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.ll{
+	margin-top: 100px;
+}
+.lm{
+	display: flex;
+	align-items: center;
+}
+.lm div div{
+	font-size: 30px;
+}
+.ra{
+	border-radius: 50%;
+	border: 2px solid green;
+	margin-right: 500px;
+
+}

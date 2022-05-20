@@ -1,0 +1,23 @@
+.lm{
+    justify-content: center;
+    
+}
+.form{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav .login{
+	text-align: right;
+	text-decoration: none;
+	margin-top: -10px;
+	margin-left: 1500px;
+	margin-right: 5px;
+	background-color: white;
+	color: green;
+	border: solid 5px red;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 5px;
+	float: right;
+
+}

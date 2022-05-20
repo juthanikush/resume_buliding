@@ -1,0 +1,58 @@
+.ab{display: flex;}
+.had1{
+	margin-top: 35px;
+	float: right;
+}
+.had{
+	width: 45%;
+	float: right;
+}
+.line{
+	margin-top: 80px;
+	width: 30%;
+	right: 0px;
+	margin-left: 70%;
+}
+#con .line{
+	margin-left: 30%;
+}
+@media(max-width: 1650px){
+	.ab{
+		display: block;
+		justify-content: center;
+	}
+	.had{
+		text-align: center;
+		color: red;
+		margin-right: 30%;
+		width: 90%;
+		align-items: center;
+	}
+	.had1{
+		margin-right: 30%;
+	}
+	.had hr{
+		display: hidden;
+		justify-content: center;
+	}
+	#Tamp{
+	padding-top: 50%;
+	}
+	#con .line{
+		width: 90%;
+		right: 100px;
+		background-color: white;
+		color: red;
+	}
+}
+@media(max-width: 1024px){
+	#lm
+	{
+		display: block!important;
+	}
+	#lm a{color: red;}
+}
+.logo a{
+	color: white!important;
+	text-decoration: none!important;
+}

@@ -1,0 +1,37 @@
+.print{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(83, 83, 83);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0);
+    cursor: pointer;
+    transition: .5s;
+}
+.button{
+    margin-left: 150px;
+}
+.button1{
+    color: white;
+}
+.color{
+    margin: 15px;
+    
+}
+.btncolor{
+    height: 30px;
+    width: 30px;
+    margin:15px;
+    padding: auto;
+}
+@media print {
+	body *{
+		visibility: hidden;
+	}
+	.print-area * {
+		visibility: visible;
+	}
+}
